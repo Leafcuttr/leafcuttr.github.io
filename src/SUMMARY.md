@@ -11,4 +11,5 @@
 
 # Features
 
-- [Sync](features/sync.md)
+- [Topic Sync Mode](features/topicSync.md)
+- [Forward](features/forward.md)

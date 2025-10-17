@@ -11,5 +11,6 @@
 
 # Features
 
+- [Schema Registry](features/schemaRegistry.md)
 - [Topic Sync Mode](features/topicSync.md)
 - [Forward](features/forward.md)

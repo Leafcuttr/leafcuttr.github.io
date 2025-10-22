@@ -1,6 +1,6 @@
 # Summary
 
-[Introduction](README.md)
+[LeafCuttr](README.md)
 [Getting Started](getting_started.md)
 
 # Interfaces

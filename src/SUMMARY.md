@@ -1,7 +1,9 @@
 # Summary
 
-[LeafCuttr](README.md)
-[Getting Started](getting_started.md)
+# Leafcuttr
+
+- [Introduction](README.md)
+- [Getting Started](getting_started.md)
 
 # Interfaces
 
@@ -15,4 +17,4 @@
 - [HTTP Proxy](features/httpProxy.md)
 - [MQTT Broker and Proxy](features/mqttBrokerProxy.md)
 - [Topic Sync Mode](features/topicSync.md)
-- [Forward](features/forward.md)
+- [Forwarding](features/forwarding.md)

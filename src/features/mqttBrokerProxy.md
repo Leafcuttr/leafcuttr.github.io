@@ -12,7 +12,7 @@ The MQTT Broker and Proxy is an embedded MQTT Broker in LeafCuttr that can also 
 
 **`lc.mqtt.broker.enable`**
 - **Type:** Boolean
-- **Default:** `true`
+- **Default:** `false`
 - **Description:** Controls whether the embedded MQTT broker is enabled. When set to `false`, the MQTT proxy will not start.
 
 ### MQTT Broker Settings

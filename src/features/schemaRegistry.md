@@ -8,7 +8,7 @@ The service uses Kafka as its storage backend (via a `_schemas` topic) and suppo
 
 ## Configuration
 
-The module is enabled by default. To disable it, set the `lc.schema.registry.enable` flag to `false`.
+The module is disabled by default. To enable it, set the `lc.schema.registry.enable` flag to `true`.
 
 ## Implicit Configurations
 

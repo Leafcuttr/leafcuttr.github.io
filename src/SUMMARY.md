@@ -13,5 +13,6 @@
 
 - [Schema Registry](features/schemaRegistry.md)
 - [HTTP Proxy](features/httpProxy.md)
+- [MQTT Broker and Proxy](features/mqttBrokerProxy.md)
 - [Topic Sync Mode](features/topicSync.md)
 - [Forward](features/forward.md)

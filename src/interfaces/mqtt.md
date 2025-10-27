@@ -2,6 +2,9 @@
 
 The embedded [MQTT Broker](/features/mqttBrokerProxy.md) provides a standard MQTT broker interface that can be accessed by clients written in any language.
 
+## Interactive Producer and Consumer
+
+Easiest way to interact with the MQTT Broker is via the [MQTTX](https://mqttx.app/) app.
 
 ## Sample Producer in Python 3
 

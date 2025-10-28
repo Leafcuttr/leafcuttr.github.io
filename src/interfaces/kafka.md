@@ -18,3 +18,16 @@ docker run --net=host --rm -it ghcr.io/leafcuttr/kafkalite:lc-0.5.1 \
   --topic perfTest --messages 10000000 --timeout 100000 \
   --bootstrap-server localhost:9092 --show-detailed-stats
 ```
+
+## example producer with schema evolution
+
+Automatically evolves the schema at specified rate.
+
+```sh
+docker run --net=host --rm -it ghcr.io/leafcuttr/kafkalite:lc-0.5.1 \
+ /opt/kafka/bin/kafka-schema-producer-perf-test.sh \
+   --schema-evolution-interval 500000 \
+   --topic perfTest --num-records 10000000 \
+   --throughput -1 --record-size 1000 \
+   --producer-props bootstrap.servers=localhost:9092
+```

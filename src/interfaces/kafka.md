@@ -3,7 +3,7 @@
 ## example producer
 
 ```sh
-docker run --net=host --rm -it ghcr.io/leafcuttr/kafkalite:lc-0.5.1 \
+docker run --net=host --rm -it ghcr.io/leafcuttr/kafkalite:lc-0.5.2 \
  /opt/kafka/bin/kafka-producer-perf-test.sh \
    --topic perfTest --num-records 10000000 \
    --throughput -1 --record-size 1000 \
@@ -13,7 +13,7 @@ docker run --net=host --rm -it ghcr.io/leafcuttr/kafkalite:lc-0.5.1 \
 ## example consumer
 
 ```sh
-docker run --net=host --rm -it ghcr.io/leafcuttr/kafkalite:lc-0.5.1 \
+docker run --net=host --rm -it ghcr.io/leafcuttr/kafkalite:lc-0.5.2 \
  /opt/kafka/bin/kafka-consumer-perf-test.sh \
   --topic perfTest --messages 10000000 --timeout 100000 \
   --bootstrap-server localhost:9092 --show-detailed-stats
@@ -24,7 +24,7 @@ docker run --net=host --rm -it ghcr.io/leafcuttr/kafkalite:lc-0.5.1 \
 Automatically evolves the schema at specified rate.
 
 ```sh
-docker run --net=host --rm -it ghcr.io/leafcuttr/kafkalite:lc-0.5.1 \
+docker run --net=host --rm -it ghcr.io/leafcuttr/kafkalite:lc-0.5.2 \
  /opt/kafka/bin/kafka-schema-producer-perf-test.sh \
    --schema-evolution-interval 500000 \
    --topic perfTest --num-records 10000000 \

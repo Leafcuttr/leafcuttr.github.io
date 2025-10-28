@@ -12,7 +12,7 @@ volumes:
 
 services:
   kafka:
-    image: ghcr.io/leafcuttr/kafkalite:lc-0.5.1
+    image: ghcr.io/leafcuttr/kafkalite:lc-0.5.2
     volumes:
       - lc-data:/tmp/kafka-logs/
     network_mode: "host"
@@ -23,6 +23,7 @@ services:
       # KAFKA_LC_HTTP_PROXY_ENABLE: "false"
       # KAFKA_LC_LOG_SYNC_ALWAYS: "true"
       # KAFKA_LC_ISOLATED: "true"
+      # KAFKA_LC_TOPIC_FORWARD_CONFIG: filePath  # make sure filePath is mounted into the container
 
       # Standard configuration for Kafka
       KAFKA_LISTENERS: CONTROLLER://localhost:9091,HOST://0.0.0.0:9092,DOCKER://0.0.0.0:9093

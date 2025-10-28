@@ -18,4 +18,4 @@
 - [MQTT Broker and Proxy](features/mqttBrokerProxy.md)
 - [Isolated Mode](features/isolatedMode.md)
 - [Topic Sync Mode](features/topicSync.md)
-- [Forwarding](features/forwarding.md)
+- [Topic Forwarding](features/forwarding.md)

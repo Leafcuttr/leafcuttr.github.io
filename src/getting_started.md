@@ -2,7 +2,7 @@
 
 ## Demo
 
-See https://github.com/Leafcuttr/lc-demo
+See [Demo Repository](https://github.com/Leafcuttr/lc-demo)
 
 ## Using Docker
 

@@ -1,10 +1,11 @@
 
 # MQTT Broker and Proxy
 
-The MQTT Broker and Proxy is an embedded MQTT Broker in LeafCuttr that can also store messages from specified MQTT topics to Kafka topics.
+The MQTT Broker and Proxy is an embedded lightweight MQTT Broker that can also store messages from specified MQTT topics to Kafka topics.
 
 - All configuration properties follow the standard Kafka configuration system and can be specified in the server properties file.
 - Authentication is optional; if username and password are not set, clients can connect without credentials.
+- The MQTT Broker is lightweight broker compliant with MQTT 5 and MQTT 3
 
 ## Configuration
 

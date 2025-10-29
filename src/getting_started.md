@@ -1,5 +1,9 @@
 # Getting Started
 
+## Demo
+
+See https://github.com/Leafcuttr/lc-demo
+
 ## Using Docker
 
 Here's a sample Docker Compose file:

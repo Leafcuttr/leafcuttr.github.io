@@ -8,14 +8,21 @@ The service uses Kafka as its storage backend (via a `_schemas` topic) and suppo
 
 ## Configuration
 
-The module is disabled by default. To enable it, set the `lc.schema.registry.enable` flag to `true`.
+**`lc.schema.registry.enable`**
+- **Type:** Boolean
+- **Default:** `false`
+- **Description:** Controls whether the embedded Schema Registry is enabled
+
+**`lc.schema.registry.port`**
+- **Type:** Int
+- **Default:** 8081
+- **Description:** Port that the Schema Registry's HTTP server listens to
 
 ## Implicit Configurations
 
 Currently, the following are hard-coded:
 
-- **Default Port**: 8081
-- **Default Kafka Bootstrap**: localhost:9092
+- **Default Kafka Bootstrap**: Advertised listeners in Kafka config
 - **Storage Topic**: `_schemas`
 - **Content-Type**: `application/vnd.schemaregistry.v1+json` or `application/json`
 

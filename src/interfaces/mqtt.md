@@ -64,7 +64,11 @@ def main():
     print(f"Starting MQTT client. Target: {BROKER_ADDRESS}:{BROKER_PORT}")
 
     # Create a new MQTT client instance (using API version 1 for broader compatibility)
-    client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION1)
+    # Specifiying a clientId is mandatory for the LeafCuttr MQTT Proxy
+    client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION1, "demoClient")
+
+    # Setup Auth
+    client.username_pw_set("demo", "demo")
 
     # Assign callback functions
     client.on_connect = on_connect
@@ -148,7 +152,11 @@ def main():
     print(f"Starting MQTT subscriber client. Target: {BROKER_ADDRESS}:{BROKER_PORT}")
 
     # Create a new MQTT client instance (using API version 1)
-    client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION1)
+    # Specifiying a clientId is mandatory for the LeafCuttr MQTT Proxy
+    client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION1, "demoClient")
+
+    # Setup Auth
+    client.username_pw_set("demo", "demo")
 
     # Assign callback functions
     client.on_connect = on_connect

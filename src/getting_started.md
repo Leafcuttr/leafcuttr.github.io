@@ -16,7 +16,7 @@ volumes:
 
 services:
   kafka:
-    image: ghcr.io/leafcuttr/kafkalite:lc-0.5.2
+    image: ghcr.io/leafcuttr/edge-server:lc-0.5.3-c
     volumes:
       - lc-data:/tmp/kafka-logs/
     network_mode: "host"

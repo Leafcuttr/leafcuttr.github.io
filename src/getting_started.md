@@ -2,7 +2,10 @@
 
 ## Demo
 
-See [Demo Repository](https://github.com/Leafcuttr/lc-demo)
+See [Demo Repository](https://github.com/Leafcuttr/lc-demo) and the walkthrough video:
+
+<iframe src="https://www.youtube.com/embed/YUTm9AeDtYg" style="width: 100%; height: 100%; border: none; aspect-ratio: 16/9; border-radius: 1rem; background: black"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
 
 ## Using Docker
 
